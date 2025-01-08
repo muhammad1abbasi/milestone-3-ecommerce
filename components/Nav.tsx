@@ -9,7 +9,7 @@ const Navbar = () => {
             <div>
              < Image src={"/logo.png"} alt='null' width={100} height={100}/>
             </div>
-            <div>
+            <div className='hidden md:flex'>
                 <ul className='flex justify-center items-center space-x-5'>
                     <li className='text-xl font-bold'>
                         Home
@@ -23,10 +23,10 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='flex space-x-5'>
-                <button className='bg-blue-500 py-3 px-5 text-lg rounded'>
+                <button className='bg-blue-500 sm:py-3 sm:px-5 text-lg rounded'>
                    <Link href={"/cart"}>Cart Products</Link>
                 </button>
-                <button className='bg-green-500 py-3 px-5 text-lg rounded'>
+                <button className='bg-green-500 sm:py-3 sm:px-5 text-lg rounded'>
                     Login / Sign Up
                 </button>
             </div>

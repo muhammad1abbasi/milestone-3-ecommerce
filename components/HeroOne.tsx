@@ -3,7 +3,7 @@ import Image from 'next/image'
 const HeroOne = () => {
   return (
     <div className='container mx-auto mt-48'>
-      <div className='flex space-x-5 justify-evenly'>
+      <div className='flex flex-col md:flex-row space-x-5 justify-evenly'>
         <div className=' text-center mt-28'>
             <h1 className='text-2xl font-bold '>An e-commerce website is an online <br /> store where customers can buy products <br /> and services from a business over the internet.</h1>
         </div>
